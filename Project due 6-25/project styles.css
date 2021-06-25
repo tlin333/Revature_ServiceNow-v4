@@ -1,0 +1,111 @@
+.box h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.box{
+    width: 1000px;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(45deg, blue,black, yellow);
+
+    
+}
+
+.image{
+  background: url(./image/LANS.png);
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #d7dbdb, 0px 0px 0px 5px black,
+  12px 12px 12px yellow, -12px -12px 12px blue;
+
+}
+
+
+.box input[type="email"]{
+  border-radius: 30px;
+  border: 3px solid #04f304;
+  background: none;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px 15px;
+  width: 250px;
+  outline: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.box input[type="email"]:focus{
+  width: 400px;
+  border-color: #594bdd;
+}
+
+
+.box input[type="username"]{
+    border-radius: 30px;
+    border: 3px solid #d7eb27;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px 15px;
+    width: 250px;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .box input[type="username"]:focus{
+    width: 400px;
+    border-color: #f18c49;
+}
+
+.box input[type="password"]{
+  border-radius: 30px;
+  border: 3px solid #c70dd8;
+  background: none;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px 15px;
+  width: 250px;
+  outline: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.box input[type="password"]:focus{
+  width: 400px;
+  border-color: #0af8f8;
+}
+
+.box input[type="submit"]{
+    width: 400px;
+    border-radius: 30px;
+    border: 3px solid #fc0505;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px 15px;
+    outline: none;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .box input[type="submit"]:hover{
+    background: #03f33f;
+}
+
+
+
